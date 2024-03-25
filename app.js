@@ -120,12 +120,7 @@ const objectLit = () => ({
 // TODO: Uncomment the following line of code to see the output in the browser console
 // console.log(objectLit());
 
-
-let sumAndProduct = function(a, b) {
-  let sum = a + b;
-  let product = a * b;
-  return [sum, product];
-};
+const sumAndProduct = (a, b) => [(a + b), (a * b)];
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // console.log(sumAndProduct(3, 9));
