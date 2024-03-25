@@ -180,8 +180,8 @@ Student.prototype.scopeArrow = () => console.log(this);
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+// The instance of the Student constructor function.
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+// The browser window object.
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// Arrow functions retain the "this" value of the enclosing functional scope.
