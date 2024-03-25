@@ -109,16 +109,13 @@ const newObject = array => ({
 const sum = (a, b, c, d) => a + b + c + d;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-console.log(sum(1, 2, 3, 4));
+// console.log(sum(1, 2, 3, 4));
 
-
-let objectLit = function() {
-  return {
-    key1: 'value1',
-    key2: 'value2',
-    key3: 'value3',
-  };
-};
+const objectLit = () => ({
+  key1: 'value1',
+  key2: 'value2',
+  key3: 'value3',
+});
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // console.log(objectLit());
