@@ -125,10 +125,7 @@ const sumAndProduct = (a, b) => [(a + b), (a * b)];
 // TODO: Uncomment the following line of code to see the output in the browser console
 // console.log(sumAndProduct(3, 9));
 
-
-let message = function(name) {
-  return `Hello, ${name}!`;
-};
+const message = name => `Hello, ${name}!`;
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // console.log(message('Allie'));
